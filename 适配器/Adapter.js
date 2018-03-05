@@ -9,12 +9,13 @@ Ice.g = function(id){
 	return $('#'+id).get(0);
 }
 //参数适配
-var _adpter = {
-	name:Ice,
-	age:18,
-	size:100
-}
-function adp(_adpter.obj){
+
+function adp(obj){
+	var _adpter = {
+		name:Ice,
+		age:18,
+		size:100
+	}
 	for(var i in _adpter){
 		_adpter = obj[i] || _adpter[i];
 	}
