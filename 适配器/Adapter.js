@@ -1,5 +1,4 @@
 //自定义框架适配jQery
-//自定义框架
 var Ice = Ice || {};
 Ice.g = function(id){
 	return document.getElementById(id);
